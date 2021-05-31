@@ -1,7 +1,11 @@
-body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding: 2em 10em; background-color: whitesmoke;}
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 2% 10%;
+    background-color: whitesmoke;
+}
 
 .container {
-    padding: 3em;
+    padding: 10%;
     background-color: white;
     border-radius: 14px;
 }
@@ -15,4 +19,18 @@ body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding: 2em
     font-style: italic;
     color: gray;
     margin-bottom: 1.8em;
+}
+
+@media screen and (min-width: 320px) {
+    body {
+        margin: 4%;
+    }
+
+    .container {
+        padding: 6%;
+    }
+
+    .title {
+        font-size: 24px;
+    }
 }
